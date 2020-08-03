@@ -1,0 +1,35 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(275px, auto);
+  column-gap: 10px;
+  row-gap: 15px;
+}
+.monthCard {
+  text-align: center;
+  box-shadow: 5px 2px 2px #000;
+}
+.monthCard h2 {
+  font-size: 24px;
+}
+.monthCard > ul {
+  padding: 1rem;
+}
+.monthCard > ul > li {
+  list-style: none;
+}
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
